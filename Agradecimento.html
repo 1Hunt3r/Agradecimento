@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Agradecimento por Jailton ter passado em minha vida</title>
+  <style>
+    .button {
+      display: inline-block;
+      padding: 10px 20px;
+      font-size: 16px;
+      text-align: center;
+      text-decoration: none;
+      background-color: #4CAF50;
+      color: #ffffff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    .button:hover {
+      background-color: #45a049;
+    }
+  </style>
+</head>
+<body>
+  <h1>Agradecimento por você ter passado em minha vida, Jailton</h1>
+  
+  <p>Gostaria de expressar o meu profundo agradecimento por você ter passado em minha vida. Clique no botão abaixo para mostrar o quão grato(a) eu sou por ter você ao meu lado.</p>
+
+  <button class="button" onclick="mostrarAgradecimento()">Mostrar Agradecimento</button>
+  
+  <div id="agradecimento" style="display: none;">
+    <p>Querido Jailton,</p>
+
+    <p>Gostaria de expressar o meu profundo agradecimento por tudo o que você significa para mim. Ao longo dos anos, você tem sido uma presença inestimável em minha vida e quero aproveitar esta oportunidade para mostrar o quão grato(a) eu sou por ter você ao meu lado.</p>
+
+    <p>Você tem sido um(a) amigo(a) verdadeiro(a), um(a) companheiro(a) leal e alguém em quem posso confiar plenamente. Sua presença me trouxe alegria, conforto e força nos momentos mais difíceis. Você sempre esteve lá para me apoiar, ouvir e me encorajar, e eu sou verdadeiramente abençoado(a) por ter você como parte da minha vida.</p>
+
+    <p>Palavras não são suficientes para expressar o quanto eu valorizo você e tudo o que você fez por mim. Sua bondade, generosidade e empatia são incomparáveis. Seja nos momentos felizes ou nos momentos desafiadores, você sempre encontra uma maneira de tornar tudo melhor. Sua presença ilumina meu mundo e eu sou eternamente grato(a) por cada momento compartilhado.</p>
+
+    <p>Espero que este pequeno gesto de gratidão possa transmitir um pouco do amor e da apreciação que sinto por você. Mais uma vez, obrigado(a) por ser a pessoa maravilhosa que você é e por tornar minha vida tão especial.</p>
+
+    <p>Com todo o meu carinho,</p>
+    <p>[Seu nome]</p>
+  </div>
+
+  <script>
+    function mostrarAgradecimento() {
+      var agradecimentoDiv = document.getElementById("agradecimento");
+      if (agradecimentoDiv.style.display === "none") {
+        agradecimentoDiv.style.display = "block";
+      } else {
+        agradecimentoDiv.style.display = "none";
+      }
+    }
+  </script>
+</body>
+</html>
